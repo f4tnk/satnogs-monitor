@@ -2,7 +2,7 @@ use lazy_static::lazy_static;
 use tui::style::Color;
 
 lazy_static! {
-    pub static ref JET: Vec<Color> = {
+    pub static ref VIRIDIS: Vec<Color> = {
         let n = 256;
         let mut colors = Vec::with_capacity(n);
         for i in 0..n {
