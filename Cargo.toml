@@ -4,7 +4,3 @@ members = [
     "monitor",
     "satnogs-network-client",
 ]
-
-[dependencies]
-chrono = { version = "0.4.37", features = ["rustc-serialize"] }
-rustc-serialize = "0.3"
