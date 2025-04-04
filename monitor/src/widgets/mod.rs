@@ -1,5 +1,5 @@
 mod info_bar;
-pub mod viridis;
+mod viridis;
 pub mod waterfall;
 
 pub use self::info_bar::InfoBar;
